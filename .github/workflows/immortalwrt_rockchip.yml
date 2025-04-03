@@ -1,10 +1,12 @@
 name: immortalwrt_rockchip
 
 on:
+  schedule:
+    - cron: 0 16 * * *
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/DHDAXCW/immortalwrt
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: immortalwrt/rockchip/defconfig
   DIY_P1_SH: immortalwrt/diy-part1.sh
