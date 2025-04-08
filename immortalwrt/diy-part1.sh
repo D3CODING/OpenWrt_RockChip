@@ -18,19 +18,19 @@ rm -rf feeds/luci/applications/luci-app-argon-config
 mkdir package/community
 pushd package/community
 git clone --depth=1 https://github.com/fw876/helloworld
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2
-git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki
-git clone --depth=1 https://github.com/DHDAXCW/dhdaxcw-app
+#git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2
+#git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki
+#git clone --depth=1 https://github.com/DHDAXCW/dhdaxcw-app
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
-git clone --depth=1 https://github.com/linkease/istore
+#git clone --depth=1 https://github.com/linkease/istore
 popd
 
 # add luci-app-mosdns
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
 rm -rf feeds/packages/net/v2ray-geodata
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
+#git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 merge_package https://github.com/DHDAXCW/lede-rockchip lede-rockchip/package/wwan
