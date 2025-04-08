@@ -2,6 +2,10 @@
 1. 后台地址修改为192.168.0.1
 2. 仅保留常用设备和基础上网插件
 3. 直接从immortalwrt同步源码
+4. 添加本地编译脚本
+
+## 本地编译
+使用Ubuntu22.04编译，``cd OpenWrt_RockChip``后运行``./build.sh``（不要使用root运行）
 
 # OpenWrt — RockChip多设备固件云编译
 - 支持rk3588，rk356x，rk3399，rk3328
