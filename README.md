@@ -1,4 +1,8 @@
-## 机场推荐 [ENET--IEPL内网专线接入](https://www.easy2023.com/#/register?code=Ut7iWMrk)
+# 修改
+1. 后台地址修改为192.168.0.1
+2. 仅保留常用设备和基础上网插件
+3. 直接从immortalwrt同步源码
+
 # OpenWrt — RockChip多设备固件云编译
 - 支持rk3588，rk356x，rk3399，rk3328
 ### 源代码地址
